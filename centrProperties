@@ -1,0 +1,25 @@
+# Application Information
+app.name=Employee Service
+app.version=1.0.0
+
+# Server Configuration
+server.port=8081
+
+# Database Configuration
+spring.datasource.url=jdbc:postgresql://localhost:5432/employeedb
+spring.datasource.username=postgres
+spring.datasource.password=postgres123
+
+# JPA Configuration
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+# Logging
+logging.level.com.company.employee=DEBUG
+
+# Custom Properties
+employee.max-records=100
+employee.notification.enabled=true
+
+# External API
+api.user-service.url=http://localhost:8082/api/users
